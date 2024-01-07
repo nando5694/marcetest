@@ -4,6 +4,20 @@
   <meta charset="UTF-8">
   <title>Botón Sí/No</title>
   <style>
+    body {
+      background-image: url('foto.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
     .button {
       padding: 10px 20px;
       font-size: 18px;
@@ -15,9 +29,11 @@
   </style>
 </head>
 <body>
-  <h1>quieres ser mi novia marce?</h1>
-  <button id="si" class="button">Sí</button>
-  <button id="no" class="button">No</button>
+  <div class="container">
+    <h1>Hola Mundo</h1>
+    <button id="si" class="button">Sí</button>
+    <button id="no" class="button">No</button>
+  </div>
 
   <script>
     const buttonNo = document.getElementById('no');
